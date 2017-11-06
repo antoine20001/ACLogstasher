@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D800AAADCD18E2F46D16165CEAA517BD'
+               BlueprintIdentifier = '20B42F4D454210811082E40B677CD492'
                BlueprintName = 'ACLogstasher'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'ACLogstasher.framework'>

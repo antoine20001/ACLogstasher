@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ACLogstasher'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Send datas to an instance of Logstash'
 
 # This description is used to generate tags and improve search results.

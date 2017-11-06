@@ -10,13 +10,45 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../ACLogstasher/Classes/ACLogger.swift"
-            timestampString = "531336098.326224"
+            timestampString = "531651045.937814"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "sendLogMessage(type:idElastic:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ACLogstasher.ACLogger.sendLogMessage(type: ACLogstasher.ACLogger.LogType, idElastic: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "ACLogstasher"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/acointep/Documents/Autres/ACLogstasher/ACLogstasher/Classes/ACLogger.swift"
+                  timestampString = "531651046.533507"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "9351">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in ACLogstasher.ACLogger.sendLogMessage(type: ACLogstasher.ACLogger.LogType, idElastic: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "ACLogstasher"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/acointep/Documents/Autres/ACLogstasher/ACLogstasher/Classes/ACLogger.swift"
+                  timestampString = "531651046.537833"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

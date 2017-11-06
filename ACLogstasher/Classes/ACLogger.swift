@@ -65,6 +65,18 @@ extension ACLogger : Logging {
         if let idElastic = idElastic {
             url.append("/\(idElastic)")
         }
-        Alamofire.request(url, method: .post, parameters: parameters, encoding: JSONEncoding.default)
+        
+        Alamofire.request(url, method: .post, parameters: parameters, encoding: JSONEncoding.default).responseJSON { (response) in
+            print("Request: \(String(describing: response.request))")   // original url request
+            print("Response: \(String(describing: response.response))") // http url response
+            print("Result: \(response.result)")                         // response serialization result
+            
+            if let json = response.result.value {
+                print("JSON: \(json)") // serialized json response
+                NotificationCenter.default.post(name: NSNotification.Name(Const.ACLoggerNotificationSuccess), object: json)
+            } else {
+                NotificationCenter.default.post(name: NSNotification.Name(Const.ACLoggerNotificationFailure), object: response.error)
+            }
+        }
     }
 }

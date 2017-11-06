@@ -1,8 +1,8 @@
 {
   "name": "ACLogstasher",
   "version": "0.1.0",
-  "summary": "A short description of ACLogstasher.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Send datas to an instance of Logstash",
+  "description": "Send default and custom datas to an instance of Logstash\nDefault datas : device model, iOS version, orientation, battery level, bundle version, app version, bundle ID, app name, language, region, timezone, UUID.",
   "homepage": "https://github.com/antoine20001/ACLogstasher",
   "license": {
     "type": "MIT",
@@ -20,9 +20,6 @@
   },
   "source_files": "ACLogstasher/Classes/**/*",
   "dependencies": {
-    "SwiftyBeaver": [
-
-    ],
     "Alamofire": [
 
     ]

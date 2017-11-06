@@ -28,4 +28,8 @@ struct Const {
     
     public static let errorDomain = "error_domain"
     public static let errorCode = "error_code"
+    
+    public static let ACLoggerNotificationSuccess = "ACLoggerNotificationSuccess"
+    public static let ACLoggerNotificationFailure = "ACLoggerNotificationFailure"
+
 }
