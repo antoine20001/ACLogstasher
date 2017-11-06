@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ACLogstasher_Example' do
+  pod 'ACLogstasher', :path => '../'
+
+  target 'ACLogstasher_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
